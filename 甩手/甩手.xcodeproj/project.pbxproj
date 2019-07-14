@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931DF37022DAC5D4006FDA15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF36F22DAC5D4006FDA15 /* AppDelegate.m */; };
-		931DF37322DAC5D4006FDA15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF37222DAC5D4006FDA15 /* ViewController.m */; };
 		931DF37622DAC5D4006FDA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931DF37422DAC5D4006FDA15 /* Main.storyboard */; };
 		931DF37822DAC5D6006FDA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931DF37722DAC5D6006FDA15 /* Assets.xcassets */; };
 		931DF37B22DAC5D6006FDA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931DF37922DAC5D6006FDA15 /* LaunchScreen.storyboard */; };
-		931DF37E22DAC5D6006FDA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF37D22DAC5D6006FDA15 /* main.m */; };
 		931DF38822DAC5D6006FDA15 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF38722DAC5D6006FDA15 /* __Tests.m */; };
 		931DF39322DAC5D6006FDA15 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF39222DAC5D6006FDA15 /* __UITests.m */; };
+		9332345722DB7A5F002036B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345522DB7A5F002036B2 /* main.m */; };
+		9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345622DB7A5F002036B2 /* AppDelegate.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -38,21 +37,19 @@
 /* Begin PBXFileReference section */
 		179271B13C67F3FB79AAE16E /* Pods-甩手.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.release.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.release.xcconfig"; sourceTree = "<group>"; };
 		931DF36B22DAC5D4006FDA15 /* 甩手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "甩手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		931DF36E22DAC5D4006FDA15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		931DF36F22DAC5D4006FDA15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		931DF37122DAC5D4006FDA15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		931DF37222DAC5D4006FDA15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		931DF37522DAC5D4006FDA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		931DF37722DAC5D6006FDA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931DF37A22DAC5D6006FDA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931DF37C22DAC5D6006FDA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		931DF37D22DAC5D6006FDA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		931DF38322DAC5D6006FDA15 /* 甩手Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "甩手Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		931DF38722DAC5D6006FDA15 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		931DF38922DAC5D6006FDA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		931DF38E22DAC5D6006FDA15 /* 甩手UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "甩手UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		931DF39222DAC5D6006FDA15 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		931DF39422DAC5D6006FDA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9332345422DB7A5F002036B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9332345522DB7A5F002036B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9332345622DB7A5F002036B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +86,6 @@
 				FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */,
 				179271B13C67F3FB79AAE16E /* Pods-甩手.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,15 +114,14 @@
 		931DF36D22DAC5D4006FDA15 /* 甩手 */ = {
 			isa = PBXGroup;
 			children = (
-				931DF36E22DAC5D4006FDA15 /* AppDelegate.h */,
-				931DF36F22DAC5D4006FDA15 /* AppDelegate.m */,
-				931DF37122DAC5D4006FDA15 /* ViewController.h */,
-				931DF37222DAC5D4006FDA15 /* ViewController.m */,
-				931DF37422DAC5D4006FDA15 /* Main.storyboard */,
-				931DF37722DAC5D6006FDA15 /* Assets.xcassets */,
-				931DF37922DAC5D6006FDA15 /* LaunchScreen.storyboard */,
-				931DF37C22DAC5D6006FDA15 /* Info.plist */,
-				931DF37D22DAC5D6006FDA15 /* main.m */,
+				9332346722DB7AB4002036B2 /* Base */,
+				9332345A22DB7AB4002036B2 /* Home */,
+				9332346222DB7AB4002036B2 /* Classify */,
+				9332345E22DB7AB4002036B2 /* ShoppCar */,
+				9332346A22DB7AB4002036B2 /* MySet */,
+				9332345922DB7A78002036B2 /* Other */,
+				9332346622DB7AB4002036B2 /* Macro */,
+				9332345322DB7A5F002036B2 /* Main */,
 			);
 			path = "甩手";
 			sourceTree = "<group>";
@@ -147,6 +142,181 @@
 				931DF39422DAC5D6006FDA15 /* Info.plist */,
 			);
 			path = "甩手UITests";
+			sourceTree = "<group>";
+		};
+		9332345322DB7A5F002036B2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9332345422DB7A5F002036B2 /* AppDelegate.h */,
+				9332345522DB7A5F002036B2 /* main.m */,
+				9332345622DB7A5F002036B2 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9332345922DB7A78002036B2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				931DF37422DAC5D4006FDA15 /* Main.storyboard */,
+				931DF37C22DAC5D6006FDA15 /* Info.plist */,
+				931DF37722DAC5D6006FDA15 /* Assets.xcassets */,
+				931DF37922DAC5D6006FDA15 /* LaunchScreen.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		9332345A22DB7AB4002036B2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9332345B22DB7AB4002036B2 /* Controller */,
+				9332345C22DB7AB4002036B2 /* Model */,
+				9332345D22DB7AB4002036B2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9332345B22DB7AB4002036B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9332345C22DB7AB4002036B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9332345D22DB7AB4002036B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9332345E22DB7AB4002036B2 /* ShoppCar */ = {
+			isa = PBXGroup;
+			children = (
+				9332345F22DB7AB4002036B2 /* Controller */,
+				9332346022DB7AB4002036B2 /* Model */,
+				9332346122DB7AB4002036B2 /* View */,
+			);
+			path = ShoppCar;
+			sourceTree = "<group>";
+		};
+		9332345F22DB7AB4002036B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9332346022DB7AB4002036B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9332346122DB7AB4002036B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9332346222DB7AB4002036B2 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				9332346322DB7AB4002036B2 /* Controller */,
+				9332346422DB7AB4002036B2 /* Model */,
+				9332346522DB7AB4002036B2 /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		9332346322DB7AB4002036B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9332346422DB7AB4002036B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9332346522DB7AB4002036B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9332346622DB7AB4002036B2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		9332346722DB7AB4002036B2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9332346822DB7AB4002036B2 /* BaseViewContrller */,
+				9332346922DB7AB4002036B2 /* BaseModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9332346822DB7AB4002036B2 /* BaseViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewContrller;
+			sourceTree = "<group>";
+		};
+		9332346922DB7AB4002036B2 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		9332346A22DB7AB4002036B2 /* MySet */ = {
+			isa = PBXGroup;
+			children = (
+				9332346B22DB7AB4002036B2 /* Controller */,
+				9332346C22DB7AB4002036B2 /* Model */,
+				9332346D22DB7AB4002036B2 /* View */,
+			);
+			path = MySet;
+			sourceTree = "<group>";
+		};
+		9332346B22DB7AB4002036B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9332346C22DB7AB4002036B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9332346D22DB7AB4002036B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
@@ -313,9 +483,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931DF37322DAC5D4006FDA15 /* ViewController.m in Sources */,
-				931DF37E22DAC5D6006FDA15 /* main.m in Sources */,
-				931DF37022DAC5D4006FDA15 /* AppDelegate.m in Sources */,
+				9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */,
+				9332345722DB7A5F002036B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
