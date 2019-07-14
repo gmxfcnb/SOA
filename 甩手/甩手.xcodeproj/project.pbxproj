@@ -14,6 +14,7 @@
 		931DF39322DAC5D6006FDA15 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF39222DAC5D6006FDA15 /* __UITests.m */; };
 		9332345722DB7A5F002036B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345522DB7A5F002036B2 /* main.m */; };
 		9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345622DB7A5F002036B2 /* AppDelegate.m */; };
+		9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332347E22DB7EB0002036B2 /* HomeViewController.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		9332345422DB7A5F002036B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9332345522DB7A5F002036B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9332345622DB7A5F002036B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9332347D22DB7EB0002036B2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9332347E22DB7EB0002036B2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,9 +170,7 @@
 		9332345A22DB7AB4002036B2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9332347222DB7CF0002036B2 /* Controller */,
-				9332347022DB7CEF002036B2 /* Model */,
-				9332347122DB7CEF002036B2 /* View */,
+				9332347C22DB7E74002036B2 /* ViewController */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -177,9 +178,6 @@
 		9332345E22DB7AB4002036B2 /* ShoppCar */ = {
 			isa = PBXGroup;
 			children = (
-				9332347722DB7D05002036B2 /* Controller */,
-				9332347822DB7D06002036B2 /* Model */,
-				9332347622DB7D05002036B2 /* View */,
 			);
 			path = ShoppCar;
 			sourceTree = "<group>";
@@ -187,9 +185,6 @@
 		9332346222DB7AB4002036B2 /* Classify */ = {
 			isa = PBXGroup;
 			children = (
-				9332347522DB7CFB002036B2 /* Controller */,
-				9332347322DB7CFB002036B2 /* Model */,
-				9332347422DB7CFB002036B2 /* View */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -206,9 +201,6 @@
 		9332346A22DB7AB4002036B2 /* MySet */ = {
 			isa = PBXGroup;
 			children = (
-				9332347A22DB7D10002036B2 /* Controller */,
-				9332347B22DB7D10002036B2 /* Model */,
-				9332347922DB7D10002036B2 /* View */,
 			);
 			path = MySet;
 			sourceTree = "<group>";
@@ -227,88 +219,13 @@
 			path = BaseModel;
 			sourceTree = "<group>";
 		};
-		9332347022DB7CEF002036B2 /* Model */ = {
+		9332347C22DB7E74002036B2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9332347D22DB7EB0002036B2 /* HomeViewController.h */,
+				9332347E22DB7EB0002036B2 /* HomeViewController.m */,
 			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9332347122DB7CEF002036B2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9332347222DB7CF0002036B2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9332347322DB7CFB002036B2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9332347422DB7CFB002036B2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9332347522DB7CFB002036B2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9332347622DB7D05002036B2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9332347722DB7D05002036B2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9332347822DB7D06002036B2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9332347922DB7D10002036B2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9332347A22DB7D10002036B2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9332347B22DB7D10002036B2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
@@ -477,6 +394,7 @@
 			files = (
 				9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */,
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
+				9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
