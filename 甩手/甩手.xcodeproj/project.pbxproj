@@ -335,6 +335,7 @@
 		931DF36322DAC5D4006FDA15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GM;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = soamall;
 				TargetAttributes = {
@@ -607,14 +608,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HS62JFXYP;
 				INFOPLIST_FILE = "甩手/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soa.--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -624,14 +627,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HS62JFXYP;
 				INFOPLIST_FILE = "甩手/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.soa.--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
