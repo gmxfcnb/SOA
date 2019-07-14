@@ -17,6 +17,8 @@
 		9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332347E22DB7EB0002036B2 /* HomeViewController.m */; };
 		9332348422DB7F9C002036B2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348322DB7F9C002036B2 /* BaseModel.m */; };
 		9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348622DB7FBA002036B2 /* BaseViewController.m */; };
+		9332348D22DB8168002036B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348C22DB8168002036B2 /* LoginViewController.m */; };
+		9332349022DB8178002036B2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348F22DB8178002036B2 /* RegisterViewController.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,10 @@
 		9332348322DB7F9C002036B2 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		9332348522DB7FBA002036B2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		9332348622DB7FBA002036B2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9332348B22DB8168002036B2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9332348C22DB8168002036B2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9332348E22DB8178002036B2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9332348F22DB8178002036B2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +161,7 @@
 		9332345322DB7A5F002036B2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9332348922DB8142002036B2 /* LoginRegister */,
 				9332345422DB7A5F002036B2 /* AppDelegate.h */,
 				9332345522DB7A5F002036B2 /* main.m */,
 				9332345622DB7A5F002036B2 /* AppDelegate.m */,
@@ -236,6 +243,25 @@
 				9332348322DB7F9C002036B2 /* BaseModel.m */,
 			);
 			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		9332348922DB8142002036B2 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				9332348A22DB8159002036B2 /* Controller */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		9332348A22DB8159002036B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9332348B22DB8168002036B2 /* LoginViewController.h */,
+				9332348C22DB8168002036B2 /* LoginViewController.m */,
+				9332348E22DB8178002036B2 /* RegisterViewController.h */,
+				9332348F22DB8178002036B2 /* RegisterViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
@@ -404,7 +430,9 @@
 			files = (
 				9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */,
 				9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */,
+				9332348D22DB8168002036B2 /* LoginViewController.m in Sources */,
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
+				9332349022DB8178002036B2 /* RegisterViewController.m in Sources */,
 				9332348422DB7F9C002036B2 /* BaseModel.m in Sources */,
 				9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */,
 			);
