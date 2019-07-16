@@ -14,7 +14,6 @@
 		931DF39322DAC5D6006FDA15 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931DF39222DAC5D6006FDA15 /* __UITests.m */; };
 		9332345722DB7A5F002036B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345522DB7A5F002036B2 /* main.m */; };
 		9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332345622DB7A5F002036B2 /* AppDelegate.m */; };
-		9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332347E22DB7EB0002036B2 /* HomeViewController.m */; };
 		9332348422DB7F9C002036B2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348322DB7F9C002036B2 /* BaseModel.m */; };
 		9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348622DB7FBA002036B2 /* BaseViewController.m */; };
 		9332348D22DB8168002036B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348C22DB8168002036B2 /* LoginViewController.m */; };
@@ -41,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		179271B13C67F3FB79AAE16E /* Pods-甩手.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.release.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.release.xcconfig"; sourceTree = "<group>"; };
+		930D9A9022DDA411007570BD /* SOA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOA-Prefix.pch"; sourceTree = "<group>"; };
 		931DF36B22DAC5D4006FDA15 /* 甩手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "甩手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		931DF37522DAC5D4006FDA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		931DF37722DAC5D6006FDA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,8 +55,6 @@
 		9332345422DB7A5F002036B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9332345522DB7A5F002036B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9332345622DB7A5F002036B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9332347D22DB7EB0002036B2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		9332347E22DB7EB0002036B2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9332348222DB7F9C002036B2 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		9332348322DB7F9C002036B2 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		9332348522DB7FBA002036B2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -165,6 +163,7 @@
 				9332345422DB7A5F002036B2 /* AppDelegate.h */,
 				9332345522DB7A5F002036B2 /* main.m */,
 				9332345622DB7A5F002036B2 /* AppDelegate.m */,
+				930D9A9022DDA411007570BD /* SOA-Prefix.pch */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -221,8 +220,6 @@
 		9332347C22DB7E74002036B2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9332347D22DB7EB0002036B2 /* HomeViewController.h */,
-				9332347E22DB7EB0002036B2 /* HomeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -435,7 +432,6 @@
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
 				9332349022DB8178002036B2 /* RegisterViewController.m in Sources */,
 				9332348422DB7F9C002036B2 /* BaseModel.m in Sources */,
-				9332347F22DB7EB0002036B2 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +605,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HS62JFXYP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -628,6 +626,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HS62JFXYP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (

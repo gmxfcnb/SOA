@@ -1,0 +1,55 @@
+//
+//  SOA-Prefix.pch
+//  甩手
+//
+//  Created by mason on 2019/7/16.
+//  Copyright © 2019 soamall. All rights reserved.
+//
+
+#ifndef SOA_Prefix_pch
+#define SOA_Prefix_pch
+/*----------------打印-------------------*/
+//高效率的NSLog
+#ifdef DEBUG
+#define DLog(fmt,...) NSLog(@"\n%s \n⚠️第%d行⚠️ \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(fmt,...)
+#endif
+/*--------------屏幕-----------------*/
+/** 屏幕高度 */
+#define MScreenH [UIScreen mainScreen].bounds.size.height
+/** 屏幕宽度 */
+#define MScreenW [UIScreen mainScreen].bounds.size.width
+
+//色值
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+//CGRectMake
+#define Frame(x,y,w,h) CGRectMake(x, y, w, h)
+//CGSizeMake
+#define Size(w,h) CGSizeMake(w, h)
+//UIEdgeInsetsMake
+#define Edge(top,left,bottom,right)  UIEdgeInsetsMake(top, left, bottom, right)
+
+//机型
+#define Is_iPhoneXS_Max (ScreenW == 414.f && ScreenH == 896.f)
+#define Is_iPhoneX (ScreenW == 375.f && ScreenH == 812.f)
+#define Is_iPhone8_Plus (ScreenW == 414.f && ScreenH == 736.f)
+#define Is_iPhone8 (ScreenW == 375.f && ScreenH == 667.f)
+#define Is_iPhone5 (ScreenW == 320 && ScreenH == 568.f)
+#define Is_iPhone5_OR_LESS (ScreenW == 320 && ScreenH <= 568.f)
+#define Is_iPhoneX_Series (Is_iPhoneX||Is_iPhoneXS_Max)
+
+
+//获取当前版本号
+#define BUNDLE_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+//获取当前版本的biuld
+#define BIULD_VERSION [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+//获取当前设备的UDID
+#define DIV_UUID [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+
+
+// 获取状态栏高度，iPhoneX之前手机状态栏高度为20，iPhoneX为40，这个宏定义动态获取状态栏高度
+#define MStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#endif /* SOA_Prefix_pch */

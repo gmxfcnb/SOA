@@ -7,6 +7,8 @@
 //
 
 #import "BaseViewController.h"
+// 直接替换
+
 
 @interface BaseViewController ()
 
@@ -16,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
     // Do any additional setup after loading the view.
 }
 
