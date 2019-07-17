@@ -14,7 +14,12 @@
 //自适应
 #import "UIView+SDAutoLayout.h"
 #import "UITableView+SDAutoTableViewCellHeight.h"
+
 /*------------------属性宏-----------------------*/
+//属性快速声明（建议使用代码块）
+//#define kPropertyString(name) @property(nonatomic,copy)NSString *name
+//#define PropertyStrong(type,name) @property(nonatomic,strong)type *name
+//#define kPropertyAssign(name) @property(nonatomic,assign)NSInteger name
 //property属性快速声明
 
 #define PropertyString(s)@property(nonatomic,copy)NSString * s

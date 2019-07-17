@@ -8,15 +8,15 @@
 
 #import "LoginViewController.h"
 
-@interface LoginViewController ()
-
+@interface LoginViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView *loginTableView;
 @end
 
 @implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = GMBrownColor;
+    self.view.backgroundColor = GMWhiteColor;
     // Do any additional setup after loading the view.
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -32,5 +32,12 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(void)creatLoginTableView
+{
+    self.loginTableView  = [[UITableView alloc]initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    self.loginTableView.delegate = self;
+    self.loginTableView.dataSource = self;
+    [self.view addSubview:self.loginTableView];
+    
+}
 @end

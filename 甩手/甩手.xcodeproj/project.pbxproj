@@ -17,7 +17,6 @@
 		9332348422DB7F9C002036B2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348322DB7F9C002036B2 /* BaseModel.m */; };
 		9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348622DB7FBA002036B2 /* BaseViewController.m */; };
 		9332348D22DB8168002036B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348C22DB8168002036B2 /* LoginViewController.m */; };
-		9332349022DB8178002036B2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348F22DB8178002036B2 /* RegisterViewController.m */; };
 		93C3B04A22DDD4AA00BB2B34 /* GMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04922DDD4AA00BB2B34 /* GMHomeViewController.m */; };
 		93C3B04D22DDD4BF00BB2B34 /* GMClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04C22DDD4BF00BB2B34 /* GMClassifyViewController.m */; };
 		93C3B05022DDD4D200BB2B34 /* GMShoopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04F22DDD4D200BB2B34 /* GMShoopCarViewController.m */; };
@@ -68,8 +67,6 @@
 		9332348622DB7FBA002036B2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		9332348B22DB8168002036B2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9332348C22DB8168002036B2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		9332348E22DB8178002036B2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		9332348F22DB8178002036B2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		93C3B04822DDD4AA00BB2B34 /* GMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHomeViewController.h; sourceTree = "<group>"; };
 		93C3B04922DDD4AA00BB2B34 /* GMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHomeViewController.m; sourceTree = "<group>"; };
 		93C3B04B22DDD4BF00BB2B34 /* GMClassifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMClassifyViewController.h; sourceTree = "<group>"; };
@@ -180,9 +177,10 @@
 		9332345322DB7A5F002036B2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9332348922DB8142002036B2 /* LoginRegister */,
+				93E4D8F422DF1E5E0062927D /* Register */,
 				93C3B05522DDD54600BB2B34 /* NavigationBar */,
 				93C3B05422DDD51100BB2B34 /* TabBarContrller */,
-				9332348922DB8142002036B2 /* LoginRegister */,
 				9332345422DB7A5F002036B2 /* AppDelegate.h */,
 				9332345522DB7A5F002036B2 /* main.m */,
 				9332345622DB7A5F002036B2 /* AppDelegate.m */,
@@ -266,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				9332348A22DB8159002036B2 /* Controller */,
+				93E4D8F722DF1EA30062927D /* View */,
 			);
 			path = LoginRegister;
 			sourceTree = "<group>";
@@ -275,8 +274,6 @@
 			children = (
 				9332348B22DB8168002036B2 /* LoginViewController.h */,
 				9332348C22DB8168002036B2 /* LoginViewController.m */,
-				9332348E22DB8178002036B2 /* RegisterViewController.h */,
-				9332348F22DB8178002036B2 /* RegisterViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,6 +337,36 @@
 			children = (
 				93E4D8F122DF08940062927D /* GMLoginView.h */,
 				93E4D8F222DF08940062927D /* GMLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93E4D8F422DF1E5E0062927D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D8F522DF1E5F0062927D /* VC */,
+				93E4D8F622DF1E5F0062927D /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		93E4D8F522DF1E5F0062927D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		93E4D8F622DF1E5F0062927D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93E4D8F722DF1EA30062927D /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -513,7 +540,6 @@
 				9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */,
 				9332348D22DB8168002036B2 /* LoginViewController.m in Sources */,
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
-				9332349022DB8178002036B2 /* RegisterViewController.m in Sources */,
 				93C3B05322DDD4DC00BB2B34 /* GMSetViewController.m in Sources */,
 				93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */,
 				93C3B05022DDD4D200BB2B34 /* GMShoopCarViewController.m in Sources */,
@@ -699,7 +725,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,7 +747,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
