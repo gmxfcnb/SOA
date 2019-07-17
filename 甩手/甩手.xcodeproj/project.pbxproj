@@ -405,7 +405,7 @@
 				931DF36722DAC5D4006FDA15 /* Sources */,
 				931DF36822DAC5D4006FDA15 /* Frameworks */,
 				931DF36922DAC5D4006FDA15 /* Resources */,
-				209F91D84F528C0D45BC2937 /* [CP] Copy Pods Resources */,
+				C512A8DBE26BE5942560C5B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -523,7 +523,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		209F91D84F528C0D45BC2937 /* [CP] Copy Pods Resources */ = {
+		C512A8DBE26BE5942560C5B3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -761,7 +761,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -783,7 +783,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/甩手/Main/SOA-Prefix.pch";
 				INFOPLIST_FILE = "甩手/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
