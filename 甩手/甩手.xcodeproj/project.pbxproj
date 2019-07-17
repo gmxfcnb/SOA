@@ -679,6 +679,7 @@
 			baseConfigurationReference = FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HS62JFXYP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -700,6 +701,7 @@
 			baseConfigurationReference = 179271B13C67F3FB79AAE16E /* Pods-甩手.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HS62JFXYP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
