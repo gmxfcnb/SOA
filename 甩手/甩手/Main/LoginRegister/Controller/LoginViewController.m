@@ -17,7 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = GMWhiteColor;
+    self.loginV = [[GMLoginV alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.view addSubview:self.loginV];
+    
+    self.loginV.btnBlock = ^(NSInteger valueIndex) {
+        [self clickLoginBtn];
+    };
     // Do any additional setup after loading the view.
+}
+-(void)clickLoginBtn
+{
+    NSLog(@"点击了登录");
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
@@ -40,4 +50,5 @@
     [self.view addSubview:self.loginTableView];
     
 }
+
 @end

@@ -18,7 +18,7 @@
 /*------------------属性宏-----------------------*/
 //属性快速声明（建议使用代码块）
 //#define kPropertyString(name) @property(nonatomic,copy)NSString *name
-//#define PropertyStrong(type,name) @property(nonatomic,strong)type *name
+#define PropertyStrong(type,name) @property(nonatomic,strong)type *name
 //#define kPropertyAssign(name) @property(nonatomic,assign)NSInteger name
 //property属性快速声明
 
@@ -59,6 +59,7 @@
 #define GMBrownColor [UIColor brownColor]
 #define GMRedColor   [UIColor redColor]
 #define GMGreenColor [UIColor greenColor]
+#define GMlightGrayColor [UIColor lightGrayColor]
 
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)

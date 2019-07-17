@@ -24,6 +24,7 @@
 		93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */; };
 		93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */; };
 		93E4D8F322DF08940062927D /* GMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8F222DF08940062927D /* GMLoginView.m */; };
+		93E4D8FD22DF29800062927D /* GMLoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8FC22DF29800062927D /* GMLoginV.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,8 @@
 		93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNavViewController.m; sourceTree = "<group>"; };
 		93E4D8F122DF08940062927D /* GMLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLoginView.h; sourceTree = "<group>"; };
 		93E4D8F222DF08940062927D /* GMLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginView.m; sourceTree = "<group>"; };
+		93E4D8FB22DF29800062927D /* GMLoginV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLoginV.h; sourceTree = "<group>"; };
+		93E4D8FC22DF29800062927D /* GMLoginV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginV.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,6 +370,8 @@
 		93E4D8F722DF1EA30062927D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D8FB22DF29800062927D /* GMLoginV.h */,
+				93E4D8FC22DF29800062927D /* GMLoginV.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -536,6 +541,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E4D8FD22DF29800062927D /* GMLoginV.m in Sources */,
 				9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */,
 				9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */,
 				9332348D22DB8168002036B2 /* LoginViewController.m in Sources */,

@@ -20,6 +20,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[GMTabViewController alloc]init];
     [[UITabBar appearance ] setTranslucent:NO];
+    
     // Override point for customization after application launch.
     return YES;
 }
