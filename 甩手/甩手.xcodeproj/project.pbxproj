@@ -201,7 +201,6 @@
 		9332345922DB7A78002036B2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				93E4D90422DF6B760062927D /* otherObject */,
 				931DF37422DAC5D4006FDA15 /* Main.storyboard */,
 				931DF37C22DAC5D6006FDA15 /* Info.plist */,
 				931DF37722DAC5D6006FDA15 /* Assets.xcassets */,
@@ -387,13 +386,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		93E4D90422DF6B760062927D /* otherObject */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = otherObject;
-			sourceTree = "<group>";
-		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,7 +405,7 @@
 				931DF36722DAC5D4006FDA15 /* Sources */,
 				931DF36822DAC5D4006FDA15 /* Frameworks */,
 				931DF36922DAC5D4006FDA15 /* Resources */,
-				2FF55C9554BED41008386169 /* [CP] Copy Pods Resources */,
+				209F91D84F528C0D45BC2937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -531,7 +523,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FF55C9554BED41008386169 /* [CP] Copy Pods Resources */ = {
+		209F91D84F528C0D45BC2937 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
