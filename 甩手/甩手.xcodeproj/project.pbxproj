@@ -18,6 +18,21 @@
 		9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348622DB7FBA002036B2 /* BaseViewController.m */; };
 		9332348D22DB8168002036B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348C22DB8168002036B2 /* LoginViewController.m */; };
 		9332349022DB8178002036B2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332348F22DB8178002036B2 /* RegisterViewController.m */; };
+		93C3B04A22DDD4AA00BB2B34 /* GMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04922DDD4AA00BB2B34 /* GMHomeViewController.m */; };
+		93C3B04D22DDD4BF00BB2B34 /* GMClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04C22DDD4BF00BB2B34 /* GMClassifyViewController.m */; };
+		93C3B05022DDD4D200BB2B34 /* GMShoopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B04F22DDD4D200BB2B34 /* GMShoopCarViewController.m */; };
+		93C3B05322DDD4DC00BB2B34 /* GMSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05222DDD4DC00BB2B34 /* GMSetViewController.m */; };
+		93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */; };
+		93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */; };
+		93C3B06622DDDC0500BB2B34 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05D22DDDC0500BB2B34 /* wo.png */; };
+		93C3B06722DDDC0500BB2B34 /* tongxunlu-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */; };
+		93C3B06822DDDC0500BB2B34 /* weixindenglu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */; };
+		93C3B06922DDDC0500BB2B34 /* wo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06022DDDC0500BB2B34 /* wo-2.png */; };
+		93C3B06A22DDDC0500BB2B34 /* weixinxiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */; };
+		93C3B06B22DDDC0500BB2B34 /* faxian.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06222DDDC0500BB2B34 /* faxian.png */; };
+		93C3B06C22DDDC0500BB2B34 /* faxian-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06322DDDC0500BB2B34 /* faxian-2.png */; };
+		93C3B06D22DDDC0500BB2B34 /* tongxunlu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06422DDDC0500BB2B34 /* tongxunlu.png */; };
+		93C3B06E22DDDC0500BB2B34 /* faxian-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06522DDDC0500BB2B34 /* faxian-3.png */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +78,27 @@
 		9332348C22DB8168002036B2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9332348E22DB8178002036B2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		9332348F22DB8178002036B2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		93C3B04822DDD4AA00BB2B34 /* GMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHomeViewController.h; sourceTree = "<group>"; };
+		93C3B04922DDD4AA00BB2B34 /* GMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHomeViewController.m; sourceTree = "<group>"; };
+		93C3B04B22DDD4BF00BB2B34 /* GMClassifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMClassifyViewController.h; sourceTree = "<group>"; };
+		93C3B04C22DDD4BF00BB2B34 /* GMClassifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMClassifyViewController.m; sourceTree = "<group>"; };
+		93C3B04E22DDD4D200BB2B34 /* GMShoopCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMShoopCarViewController.h; sourceTree = "<group>"; };
+		93C3B04F22DDD4D200BB2B34 /* GMShoopCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMShoopCarViewController.m; sourceTree = "<group>"; };
+		93C3B05122DDD4DC00BB2B34 /* GMSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSetViewController.h; sourceTree = "<group>"; };
+		93C3B05222DDD4DC00BB2B34 /* GMSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSetViewController.m; sourceTree = "<group>"; };
+		93C3B05622DDD56D00BB2B34 /* GMTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMTabViewController.h; sourceTree = "<group>"; };
+		93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTabViewController.m; sourceTree = "<group>"; };
+		93C3B05922DDD94900BB2B34 /* GMNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNavViewController.h; sourceTree = "<group>"; };
+		93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNavViewController.m; sourceTree = "<group>"; };
+		93C3B05D22DDDC0500BB2B34 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
+		93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tongxunlu-2.png"; sourceTree = "<group>"; };
+		93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixindenglu.png; sourceTree = "<group>"; };
+		93C3B06022DDDC0500BB2B34 /* wo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo-2.png"; sourceTree = "<group>"; };
+		93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixinxiaoxi.png; sourceTree = "<group>"; };
+		93C3B06222DDDC0500BB2B34 /* faxian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faxian.png; sourceTree = "<group>"; };
+		93C3B06322DDDC0500BB2B34 /* faxian-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian-2.png"; sourceTree = "<group>"; };
+		93C3B06422DDDC0500BB2B34 /* tongxunlu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongxunlu.png; sourceTree = "<group>"; };
+		93C3B06522DDDC0500BB2B34 /* faxian-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian-3.png"; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +195,9 @@
 		9332345322DB7A5F002036B2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				93C3B05C22DDDC0500BB2B34 /* safariDownLoad */,
+				93C3B05522DDD54600BB2B34 /* NavigationBar */,
+				93C3B05422DDD51100BB2B34 /* TabBarContrller */,
 				9332348922DB8142002036B2 /* LoginRegister */,
 				9332345422DB7A5F002036B2 /* AppDelegate.h */,
 				9332345522DB7A5F002036B2 /* main.m */,
@@ -182,7 +221,7 @@
 		9332345A22DB7AB4002036B2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9332347C22DB7E74002036B2 /* ViewController */,
+				93C3B04422DDD47E00BB2B34 /* VC */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -190,6 +229,7 @@
 		9332345E22DB7AB4002036B2 /* ShoppCar */ = {
 			isa = PBXGroup;
 			children = (
+				93C3B04622DDD49000BB2B34 /* VC */,
 			);
 			path = ShoppCar;
 			sourceTree = "<group>";
@@ -197,6 +237,7 @@
 		9332346222DB7AB4002036B2 /* Classify */ = {
 			isa = PBXGroup;
 			children = (
+				93C3B04522DDD48700BB2B34 /* VC */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -213,15 +254,9 @@
 		9332346A22DB7AB4002036B2 /* MySet */ = {
 			isa = PBXGroup;
 			children = (
+				93C3B04722DDD49700BB2B34 /* VC */,
 			);
 			path = MySet;
-			sourceTree = "<group>";
-		};
-		9332347C22DB7E74002036B2 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		9332348022DB7F83002036B2 /* BaseViewController */ = {
@@ -259,6 +294,76 @@
 				9332348F22DB8178002036B2 /* RegisterViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C3B04422DDD47E00BB2B34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B04822DDD4AA00BB2B34 /* GMHomeViewController.h */,
+				93C3B04922DDD4AA00BB2B34 /* GMHomeViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		93C3B04522DDD48700BB2B34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B04B22DDD4BF00BB2B34 /* GMClassifyViewController.h */,
+				93C3B04C22DDD4BF00BB2B34 /* GMClassifyViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		93C3B04622DDD49000BB2B34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B04E22DDD4D200BB2B34 /* GMShoopCarViewController.h */,
+				93C3B04F22DDD4D200BB2B34 /* GMShoopCarViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		93C3B04722DDD49700BB2B34 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B05122DDD4DC00BB2B34 /* GMSetViewController.h */,
+				93C3B05222DDD4DC00BB2B34 /* GMSetViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		93C3B05422DDD51100BB2B34 /* TabBarContrller */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B05622DDD56D00BB2B34 /* GMTabViewController.h */,
+				93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */,
+			);
+			path = TabBarContrller;
+			sourceTree = "<group>";
+		};
+		93C3B05522DDD54600BB2B34 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B05922DDD94900BB2B34 /* GMNavViewController.h */,
+				93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		93C3B05C22DDDC0500BB2B34 /* safariDownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				93C3B05D22DDDC0500BB2B34 /* wo.png */,
+				93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */,
+				93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */,
+				93C3B06022DDDC0500BB2B34 /* wo-2.png */,
+				93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */,
+				93C3B06222DDDC0500BB2B34 /* faxian.png */,
+				93C3B06322DDDC0500BB2B34 /* faxian-2.png */,
+				93C3B06422DDDC0500BB2B34 /* tongxunlu.png */,
+				93C3B06522DDDC0500BB2B34 /* faxian-3.png */,
+			);
+			path = safariDownLoad;
 			sourceTree = "<group>";
 		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
@@ -375,8 +480,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				931DF37B22DAC5D6006FDA15 /* LaunchScreen.storyboard in Resources */,
+				93C3B06C22DDDC0500BB2B34 /* faxian-2.png in Resources */,
+				93C3B06D22DDDC0500BB2B34 /* tongxunlu.png in Resources */,
+				93C3B06A22DDDC0500BB2B34 /* weixinxiaoxi.png in Resources */,
+				93C3B06B22DDDC0500BB2B34 /* faxian.png in Resources */,
 				931DF37822DAC5D6006FDA15 /* Assets.xcassets in Resources */,
+				93C3B06722DDDC0500BB2B34 /* tongxunlu-2.png in Resources */,
 				931DF37622DAC5D4006FDA15 /* Main.storyboard in Resources */,
+				93C3B06822DDDC0500BB2B34 /* weixindenglu.png in Resources */,
+				93C3B06922DDDC0500BB2B34 /* wo-2.png in Resources */,
+				93C3B06E22DDDC0500BB2B34 /* faxian-3.png in Resources */,
+				93C3B06622DDDC0500BB2B34 /* wo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +545,12 @@
 				9332348D22DB8168002036B2 /* LoginViewController.m in Sources */,
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
 				9332349022DB8178002036B2 /* RegisterViewController.m in Sources */,
+				93C3B05322DDD4DC00BB2B34 /* GMSetViewController.m in Sources */,
+				93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */,
+				93C3B05022DDD4D200BB2B34 /* GMShoopCarViewController.m in Sources */,
+				93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */,
+				93C3B04A22DDD4AA00BB2B34 /* GMHomeViewController.m in Sources */,
+				93C3B04D22DDD4BF00BB2B34 /* GMClassifyViewController.m in Sources */,
 				9332348422DB7F9C002036B2 /* BaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
