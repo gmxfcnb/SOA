@@ -25,6 +25,8 @@
 		93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */; };
 		93E4D8F322DF08940062927D /* GMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8F222DF08940062927D /* GMLoginView.m */; };
 		93E4D8FD22DF29800062927D /* GMLoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8FC22DF29800062927D /* GMLoginV.m */; };
+		93E4D90022DF53E00062927D /* GMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8FF22DF53E00062927D /* GMRegisterViewController.m */; };
+		93E4D90322DF53F30062927D /* GMRegisterV.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D90222DF53F30062927D /* GMRegisterV.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,10 @@
 		93E4D8F222DF08940062927D /* GMLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginView.m; sourceTree = "<group>"; };
 		93E4D8FB22DF29800062927D /* GMLoginV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLoginV.h; sourceTree = "<group>"; };
 		93E4D8FC22DF29800062927D /* GMLoginV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginV.m; sourceTree = "<group>"; };
+		93E4D8FE22DF53E00062927D /* GMRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRegisterViewController.h; sourceTree = "<group>"; };
+		93E4D8FF22DF53E00062927D /* GMRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRegisterViewController.m; sourceTree = "<group>"; };
+		93E4D90122DF53F30062927D /* GMRegisterV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMRegisterV.h; sourceTree = "<group>"; };
+		93E4D90222DF53F30062927D /* GMRegisterV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMRegisterV.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -356,6 +362,8 @@
 		93E4D8F522DF1E5F0062927D /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D8FE22DF53E00062927D /* GMRegisterViewController.h */,
+				93E4D8FF22DF53E00062927D /* GMRegisterViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -363,6 +371,8 @@
 		93E4D8F622DF1E5F0062927D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D90122DF53F30062927D /* GMRegisterV.h */,
+				93E4D90222DF53F30062927D /* GMRegisterV.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -543,6 +553,7 @@
 			files = (
 				93E4D8FD22DF29800062927D /* GMLoginV.m in Sources */,
 				9332345822DB7A5F002036B2 /* AppDelegate.m in Sources */,
+				93E4D90322DF53F30062927D /* GMRegisterV.m in Sources */,
 				9332348722DB7FBA002036B2 /* BaseViewController.m in Sources */,
 				9332348D22DB8168002036B2 /* LoginViewController.m in Sources */,
 				9332345722DB7A5F002036B2 /* main.m in Sources */,
@@ -552,6 +563,7 @@
 				93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */,
 				93C3B04A22DDD4AA00BB2B34 /* GMHomeViewController.m in Sources */,
 				93C3B04D22DDD4BF00BB2B34 /* GMClassifyViewController.m in Sources */,
+				93E4D90022DF53E00062927D /* GMRegisterViewController.m in Sources */,
 				9332348422DB7F9C002036B2 /* BaseModel.m in Sources */,
 				93E4D8F322DF08940062927D /* GMLoginView.m in Sources */,
 			);

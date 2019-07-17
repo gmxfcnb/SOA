@@ -20,14 +20,27 @@
     self.loginV = [[GMLoginV alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.view addSubview:self.loginV];
     
+    __weak typeof(self) weakSelfLogin = self;
     self.loginV.btnBlock = ^(NSInteger valueIndex) {
-        [self clickLoginBtn];
+        [weakSelfLogin clickLoginBtn];
+    };
+    __weak typeof(self) weakSelfRegister = self;
+    self.loginV.registerBtnBlock = ^(NSInteger valueIndex) {
+        [weakSelfRegister clickRegister];
     };
     // Do any additional setup after loading the view.
 }
+#pragma mark 登录事件
 -(void)clickLoginBtn
 {
     NSLog(@"点击了登录");
+}
+#pragma mark 注册事件
+-(void)clickRegister
+{
+    self.registerVC = [GMRegisterViewController new];
+    [self presentViewController:self.registerVC animated:YES completion:nil];
+    NSLog(@"点击了注册s按钮");
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
