@@ -8,12 +8,18 @@
 
 #ifndef SOA_Prefix_pch
 #define SOA_Prefix_pch
+
 //网络请求
 #import "AFURLSessionManager.h"
 #import "AFHTTPSessionManager.h"
 //自适应
 #import "UIView+SDAutoLayout.h"
 #import "UITableView+SDAutoTableViewCellHeight.h"
+
+#import <AVOSCloud/AVOSCloud.h>
+#define APPID @"HlbayhwOXxLyg3Npi2pP4l74-gzGzoHsz"
+#define APPKey @"Xsw90hOLI5OlBvCNasQceyys"
+//#define sessionToken @"82c3v4ydmj8qmur21w8kmwkho"
 
 /*------------------属性宏-----------------------*/
 //属性快速声明（建议使用代码块）

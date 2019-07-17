@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GMTabViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 @interface AppDelegate ()
 
 @end
@@ -21,6 +22,8 @@
     self.window.rootViewController = [[GMTabViewController alloc]init];
     [[UITabBar appearance ] setTranslucent:NO];
     
+    /*-------------------初始化存储SDK------------------------*/
+    [AVOSCloud setApplicationId:APPID clientKey:APPKey];
     // Override point for customization after application launch.
     return YES;
 }

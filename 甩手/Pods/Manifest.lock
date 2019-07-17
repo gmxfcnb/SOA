@@ -14,21 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AVOSCloud (11.6.4)
   - SDAutoLayout (2.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - AVOSCloud
   - SDAutoLayout
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AVOSCloud
     - SDAutoLayout
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AVOSCloud: 0f5fe2be8ce99ca6eb272243041acaa9369ba8f0
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
 
-PODFILE CHECKSUM: 8cf7bd4b4186bcf4c7d2761585a1eda202b38f75
+PODFILE CHECKSUM: 64b5b30bf1946efe82530c46be11aa0e98907585
 
 COCOAPODS: 1.7.2

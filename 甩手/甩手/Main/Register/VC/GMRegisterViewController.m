@@ -7,7 +7,6 @@
 //
 
 #import "GMRegisterViewController.h"
-
 @interface GMRegisterViewController ()
 
 @end
@@ -28,6 +27,22 @@
 -(void)registerBtn
 {
     NSLog(@"注册按钮");
+    
+//    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
+//    [testObject setObject:@"bar" forKey:@"foo"];
+//    [testObject save];
+    AVUser *user = [[AVUser alloc]init];
+    user.username = self.registerV.accText.text;
+    user.password = self.registerV.passText.text;
+    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+        if (succeeded) {
+            NSLog(@"上传成功-- 账号 --%@ \n 密码 %@",self.registerV.accText.text,self.registerV.passText.text);
+        }else{
+            NSLog(@"%@",error);
+        }
+    }];
+    
+   
 }
 
 /*

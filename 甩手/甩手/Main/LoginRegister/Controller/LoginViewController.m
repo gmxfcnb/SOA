@@ -34,6 +34,34 @@
 -(void)clickLoginBtn
 {
     NSLog(@"点击了登录");
+    
+    NSString *username = self.loginV.accText.text;
+    NSString *password = self.loginV.passText.text;
+    if (username && password) {
+        __weak typeof(self) weakSelf = self;
+        [AVUser logInWithUsernameInBackground:username password:password block:^(AVUser * _Nullable user, NSError * _Nullable error) {
+            if (user) {
+                NSLog(@"%@,%@",username,password);
+                [self dismissViewControllerAnimated:YES completion:nil];
+            }else{
+                [self showSheet];
+            }
+        }];
+    }
+}
+
+- (void)showSheet {
+    //显示弹出框列表选择
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"⚠️温馨提示" message:@"用户名或密码错误" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *yesAction = [UIAlertAction actionWithTitle:@"重新输入" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"返回主页" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    [alert addAction:yesAction];
+    [alert addAction:cancelAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 #pragma mark 注册事件
 -(void)clickRegister
