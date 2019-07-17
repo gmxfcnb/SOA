@@ -24,15 +24,6 @@
 		93C3B05322DDD4DC00BB2B34 /* GMSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05222DDD4DC00BB2B34 /* GMSetViewController.m */; };
 		93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */; };
 		93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */; };
-		93C3B06622DDDC0500BB2B34 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05D22DDDC0500BB2B34 /* wo.png */; };
-		93C3B06722DDDC0500BB2B34 /* tongxunlu-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */; };
-		93C3B06822DDDC0500BB2B34 /* weixindenglu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */; };
-		93C3B06922DDDC0500BB2B34 /* wo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06022DDDC0500BB2B34 /* wo-2.png */; };
-		93C3B06A22DDDC0500BB2B34 /* weixinxiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */; };
-		93C3B06B22DDDC0500BB2B34 /* faxian.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06222DDDC0500BB2B34 /* faxian.png */; };
-		93C3B06C22DDDC0500BB2B34 /* faxian-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06322DDDC0500BB2B34 /* faxian-2.png */; };
-		93C3B06D22DDDC0500BB2B34 /* tongxunlu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06422DDDC0500BB2B34 /* tongxunlu.png */; };
-		93C3B06E22DDDC0500BB2B34 /* faxian-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C3B06522DDDC0500BB2B34 /* faxian-3.png */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -90,15 +81,6 @@
 		93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTabViewController.m; sourceTree = "<group>"; };
 		93C3B05922DDD94900BB2B34 /* GMNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNavViewController.h; sourceTree = "<group>"; };
 		93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNavViewController.m; sourceTree = "<group>"; };
-		93C3B05D22DDDC0500BB2B34 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
-		93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tongxunlu-2.png"; sourceTree = "<group>"; };
-		93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixindenglu.png; sourceTree = "<group>"; };
-		93C3B06022DDDC0500BB2B34 /* wo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo-2.png"; sourceTree = "<group>"; };
-		93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixinxiaoxi.png; sourceTree = "<group>"; };
-		93C3B06222DDDC0500BB2B34 /* faxian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faxian.png; sourceTree = "<group>"; };
-		93C3B06322DDDC0500BB2B34 /* faxian-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian-2.png"; sourceTree = "<group>"; };
-		93C3B06422DDDC0500BB2B34 /* tongxunlu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongxunlu.png; sourceTree = "<group>"; };
-		93C3B06522DDDC0500BB2B34 /* faxian-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian-3.png"; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,7 +177,6 @@
 		9332345322DB7A5F002036B2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				93C3B05C22DDDC0500BB2B34 /* safariDownLoad */,
 				93C3B05522DDD54600BB2B34 /* NavigationBar */,
 				93C3B05422DDD51100BB2B34 /* TabBarContrller */,
 				9332348922DB8142002036B2 /* LoginRegister */,
@@ -350,22 +331,6 @@
 			path = NavigationBar;
 			sourceTree = "<group>";
 		};
-		93C3B05C22DDDC0500BB2B34 /* safariDownLoad */ = {
-			isa = PBXGroup;
-			children = (
-				93C3B05D22DDDC0500BB2B34 /* wo.png */,
-				93C3B05E22DDDC0500BB2B34 /* tongxunlu-2.png */,
-				93C3B05F22DDDC0500BB2B34 /* weixindenglu.png */,
-				93C3B06022DDDC0500BB2B34 /* wo-2.png */,
-				93C3B06122DDDC0500BB2B34 /* weixinxiaoxi.png */,
-				93C3B06222DDDC0500BB2B34 /* faxian.png */,
-				93C3B06322DDDC0500BB2B34 /* faxian-2.png */,
-				93C3B06422DDDC0500BB2B34 /* tongxunlu.png */,
-				93C3B06522DDDC0500BB2B34 /* faxian-3.png */,
-			);
-			path = safariDownLoad;
-			sourceTree = "<group>";
-		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,17 +445,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				931DF37B22DAC5D6006FDA15 /* LaunchScreen.storyboard in Resources */,
-				93C3B06C22DDDC0500BB2B34 /* faxian-2.png in Resources */,
-				93C3B06D22DDDC0500BB2B34 /* tongxunlu.png in Resources */,
-				93C3B06A22DDDC0500BB2B34 /* weixinxiaoxi.png in Resources */,
-				93C3B06B22DDDC0500BB2B34 /* faxian.png in Resources */,
 				931DF37822DAC5D6006FDA15 /* Assets.xcassets in Resources */,
-				93C3B06722DDDC0500BB2B34 /* tongxunlu-2.png in Resources */,
 				931DF37622DAC5D4006FDA15 /* Main.storyboard in Resources */,
-				93C3B06822DDDC0500BB2B34 /* weixindenglu.png in Resources */,
-				93C3B06922DDDC0500BB2B34 /* wo-2.png in Resources */,
-				93C3B06E22DDDC0500BB2B34 /* faxian-3.png in Resources */,
-				93C3B06622DDDC0500BB2B34 /* wo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
