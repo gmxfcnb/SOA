@@ -8,6 +8,32 @@
 
 #ifndef SOA_Prefix_pch
 #define SOA_Prefix_pch
+//网络请求
+#import "AFURLSessionManager.h"
+#import "AFHTTPSessionManager.h"
+//自适应
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+/*------------------属性宏-----------------------*/
+//property属性快速声明
+
+#define PropertyString(s)@property(nonatomic,copy)NSString * s
+
+#define PropertyNSInteger(s)@property(nonatomic,assign)NSIntegers
+
+#define PropertyFloat(s)@property(nonatomic,assign)floats
+
+#define PropertyLongLong(s)@property(nonatomic,assign)long long s
+
+#define PropertyNSDictionary(s)@property(nonatomic,strong)NSDictionary * s
+
+#define PropertyNSArray(s)@property(nonatomic,strong)NSArray * s
+
+#define PropertyNSMutableArray(s)@property(nonatomic,strong)NSMutableArray * s
+
+#define PropertyButton(s)@property(nonatomic,strong)UIButton * s
+
+
 /*----------------打印-------------------*/
 //高效率的NSLog
 #ifdef DEBUG
@@ -22,6 +48,13 @@
 #define MScreenW [UIScreen mainScreen].bounds.size.width
 
 //色值
+#define GMWhiteColor [UIColor whiteColor]
+#define GMBlueColor  [UIColor blueColor]
+#define GMBlackColor [UIColor blackColor]
+#define GMBrownColor [UIColor brownColor]
+#define GMRedColor   [UIColor redColor]
+#define GMGreenColor [UIColor greenColor]
+
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
 //CGRectMake
@@ -51,5 +84,8 @@
 
 // 获取状态栏高度，iPhoneX之前手机状态栏高度为20，iPhoneX为40，这个宏定义动态获取状态栏高度
 #define MStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+
+
 
 #endif /* SOA_Prefix_pch */

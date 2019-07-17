@@ -7,11 +7,12 @@
 //
 
 #import "BaseViewController.h"
-
+#import "GMLoginView.h"
+#import "LoginViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GMHomeViewController : BaseViewController
-
+@property(nonatomic,strong)GMLoginView *loginView;
 @end
 
 NS_ASSUME_NONNULL_END

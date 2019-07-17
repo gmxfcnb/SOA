@@ -21,7 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor brownColor];
     //安全区域背景View
     [self creatView];
     [self addChildViewController];

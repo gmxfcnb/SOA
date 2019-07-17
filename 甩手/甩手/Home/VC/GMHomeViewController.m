@@ -16,12 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.loginView = [[GMLoginView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.loginView.backgroundColor  = GMWhiteColor;
+    __weak typeof(self) weakSelf = self;
+    self.loginView.btnBlock = ^(NSInteger tagIndex) {
+        [weakSelf presentViewController];
+    };
+    [self.view addSubview:self.loginView];
     self.navigationController.navigationBarHidden = YES;
+    
 //    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
 //    btn.frame = CGRectMake(100, 100, 100, 100);
 //    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
 //    [self.view addSubview:btn];
     // Do any additional setup after loading the view.
+}
+
+-(void)presentViewController
+{
+    LoginViewController *login = [[LoginViewController alloc]init];;
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 //-(void)click

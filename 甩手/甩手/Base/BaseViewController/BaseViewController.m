@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    self.view.backgroundColor = GMWhiteColor;
     
     // Do any additional setup after loading the view.
 }

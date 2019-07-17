@@ -24,6 +24,7 @@
 		93C3B05322DDD4DC00BB2B34 /* GMSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05222DDD4DC00BB2B34 /* GMSetViewController.m */; };
 		93C3B05822DDD56D00BB2B34 /* GMTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */; };
 		93C3B05B22DDD94900BB2B34 /* GMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */; };
+		93E4D8F322DF08940062927D /* GMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D8F222DF08940062927D /* GMLoginView.m */; };
 		9D4B19474088C1FD639CC98F /* libPods-甩手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,8 @@
 		93C3B05722DDD56D00BB2B34 /* GMTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTabViewController.m; sourceTree = "<group>"; };
 		93C3B05922DDD94900BB2B34 /* GMNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNavViewController.h; sourceTree = "<group>"; };
 		93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNavViewController.m; sourceTree = "<group>"; };
+		93E4D8F122DF08940062927D /* GMLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLoginView.h; sourceTree = "<group>"; };
+		93E4D8F222DF08940062927D /* GMLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginView.m; sourceTree = "<group>"; };
 		F12D4CFF23BDEEB3EBA629DD /* libPods-甩手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-甩手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1DEE90B812B768EA6A0B8 /* Pods-甩手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-甩手.debug.xcconfig"; path = "Target Support Files/Pods-甩手/Pods-甩手.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +205,7 @@
 		9332345A22DB7AB4002036B2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D8F022DF087D0062927D /* View */,
 				93C3B04422DDD47E00BB2B34 /* VC */,
 			);
 			path = Home;
@@ -329,6 +333,15 @@
 				93C3B05A22DDD94900BB2B34 /* GMNavViewController.m */,
 			);
 			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		93E4D8F022DF087D0062927D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D8F122DF08940062927D /* GMLoginView.h */,
+				93E4D8F222DF08940062927D /* GMLoginView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CED39E0FEBA96918C8D28916 /* Frameworks */ = {
@@ -508,6 +521,7 @@
 				93C3B04A22DDD4AA00BB2B34 /* GMHomeViewController.m in Sources */,
 				93C3B04D22DDD4BF00BB2B34 /* GMClassifyViewController.m in Sources */,
 				9332348422DB7F9C002036B2 /* BaseModel.m in Sources */,
+				93E4D8F322DF08940062927D /* GMLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
